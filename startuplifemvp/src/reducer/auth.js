@@ -11,17 +11,17 @@ const initialState = {
 
 
 export default (state = initialState, action) => {
-    switch (action){
+    switch (action.type) {
         case 'SET_USER':
-            return{
-                    ...state,
-                    user:action.payload,
-                    loading:false
-                }
-        case 'IS_AUTHTHENTICATED':
-            return{
+            return {
                 ...state,
-                isAuthenticated:action.payload,
+                user: action.payload,
+                loading: false
+            }
+        case 'IS_AUTHTHENTICATED':
+            return {
+                ...state,
+                isAuthenticated: action.payload,
                 loading: false
             }
         default:
