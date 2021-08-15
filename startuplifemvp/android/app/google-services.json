@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "558305294346",
+    "firebase_url": "https://startup-mvp-4f0d1-default-rtdb.firebaseio.com",
+    "project_id": "startup-mvp-4f0d1",
+    "storage_bucket": "startup-mvp-4f0d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558305294346:android:20a809583bf968d3af47f3",
+        "android_client_info": {
+          "package_name": "com.startuplifemvp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558305294346-c83aeuusfugm2ao4gdkrf7ee3jrtc3aj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.startuplifemvp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "558305294346-957q6nc4rhpjbmd1ic44dtvt4f16642o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMdFA4h7fTZA04M7EH5G-Yde2tXouyu6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558305294346-957q6nc4rhpjbmd1ic44dtvt4f16642o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
