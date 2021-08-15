@@ -28,8 +28,10 @@ const Stack = createStackNavigator();
 
 // Screens
 
-import Home from './screen/Home';
+
 import Login from './screen/Login';
+import HomeNavigation from './screen/Navigation/HomeNavigation';
+
 
 GoogleSignin.configure({
   webClientId: '558305294346-957q6nc4rhpjbmd1ic44dtvt4f16642o.apps.googleusercontent.com',
@@ -160,7 +162,7 @@ const App = ({authState}) => {
             <Stack.Screen
               name="home"
               options={{headerShown: false}}
-              component={Home}
+              component={HomeNavigation}
             />
             </>
 
