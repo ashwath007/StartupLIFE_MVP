@@ -33,8 +33,13 @@ import Login from './screen/Login';
 import HomeNavigation from './screen/Navigation/HomeNavigation';
 
 
+// ENV
+
+import {FIREBASE_config} from "@env"
+
+
 GoogleSignin.configure({
-  webClientId: '558305294346-957q6nc4rhpjbmd1ic44dtvt4f16642o.apps.googleusercontent.com',
+  webClientId: FIREBASE_config,
 });
 
 import Splash from './screen/support/Splash';
